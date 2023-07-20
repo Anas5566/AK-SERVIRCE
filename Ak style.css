@@ -1,0 +1,110 @@
+.bg_img {
+  background-image: url(bg_img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.flex_container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.303);
+}
+.flex_container li {
+  display: inline;
+  list-style: none;
+  margin: 10px;
+}
+.flex_container a {
+  text-decoration: none;
+  color: rgb(251, 248, 248);
+}
+.flex_container a:hover {
+  color: rgb(238, 189, 189);
+}
+.flex_container span {
+  margin-top: 15px;
+  color: white;
+  font-size: larger;
+}
+.sp {
+  position: absolute;
+  top: 200px;
+  font-size: 60px;
+  left: 300px;
+  color: antiquewhite;
+}
+.sp span {
+  margin-left: 120px;
+}
+.grid_container1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(191, 61, 61);
+  font-family: "Vollkorn", serif;
+  color: rgba(249, 244, 244, 0.832);
+  font-weight: 300;
+}
+.grid_item1 {
+  text-align: center;
+  border-right: 1px solid white;
+}
+.grid_item2 {
+  text-align: center;
+  border-right: 1px solid white;
+}
+.grid_item3 {
+  text-align: center;
+}
+.grid_container2{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 50px;
+  margin-left: 80px;
+  height: 200px;
+}
+.grid_item11{
+  text-align: center;
+}
+.grid_item11 a{
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+.grid_item11 a:hover{
+  color: rgb(132, 104, 160);
+}
+.grid_item11 button{
+  background-color: rgba(198, 59, 59, 0.684);
+  padding: 7px;
+}
+.grid_container3{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: whitesmoke;
+  margin-top: 20px;
+}
+.grid_item21{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  text-align: center;
+}
+.grid_item22{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  text-align: center;
+}
+.grid_item23,.grid_item24,.grid_item25{
+  text-align: center;
+  margin-top: 50px;
+ 
+}
+.grid_item23{
+  margin-left: 150px;
+}
+.grid_item24{
+  margin-left: 150px;
+}
+.grid_item25{
+  margin-left: 150px;
+}
