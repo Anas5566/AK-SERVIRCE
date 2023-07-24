@@ -1,0 +1,116 @@
+.flex_container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-bottom: 30px solid #ce2026;
+  }
+  .flex_container li {
+    display: inline;
+    list-style: none;
+    margin: 10px;
+  }
+  .flex_container a {
+    text-decoration: none;
+    color: black;
+  }
+  .flex_container a:hover {
+    color: rgb(238, 189, 189);
+  }
+  .flex_container span {
+    margin-top: 15px;
+    color: black;
+    font-size: larger;
+  }
+  .grid_container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 100px;
+    text-align: center;
+  }
+  h1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .card1,.card2,.card3{
+    margin-top: 40px;
+    border: 2px solid;
+  }
+  .card1{
+    margin-left: 250px;
+  }
+  .card-body a{
+    text-decoration: none;
+    color: black;
+  }
+.grid_container5 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(191, 61, 61);
+  font-family: "Vollkorn", serif;
+  color: rgba(249, 244, 244, 0.832);
+  font-weight: 300;
+  padding: 20px;
+  margin-top: 50px;
+}
+.grid_item41 {
+  text-align: center;
+  border-right: 1px solid white;
+}
+.grid_item41 span {
+  margin-right: 10px;
+  font-size: large;
+}
+.grid_item42 {
+  text-align: center;
+  border-right: 1px solid white;
+}
+.grid_item42 span {
+  margin-right: 5px;
+  font-size: large;
+}
+.grid_item43 {
+  text-align: center;
+}
+.grid_item43 span {
+  margin-right: 5px;
+  font-size: large;
+}
+.grid_container6 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+}
+.gird_item51 {
+  color: aliceblue;
+  text-align: center;
+  margin-left: 65px;
+}
+.gird_item52 li {
+  list-style: none;
+}
+.gird_item52 ul {
+  margin-left: -30px;
+}
+.gird_item52 h4 {
+  color: aliceblue;
+}
+.gird_item52 a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.gird_item53 {
+  color: aliceblue;
+}
+.gird_item51,
+.gird_item52,
+.gird_item53 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.para {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  margin-top: auto;
+}
