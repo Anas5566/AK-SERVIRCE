@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: white;
-    border-bottom: 30px solid #ce2026;
+    border-bottom: 20px solid #ce2026;
   }
   .flex_container li {
     display: inline;
